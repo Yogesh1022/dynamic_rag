@@ -1,0 +1,24 @@
+# .gitignore for DynamicRAG Project
+
+# Ignore uploaded files (e.g., images, PDFs in uploads/)
+uploads/
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Ignore IDE-specific files
+.idea/  # JetBrains IDEs (e.g., PyCharm)
+*.code-workspace  # VS Code
+
+# Ignore system files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Add any other files or directories you want to ignore below
+# Example: logs/
