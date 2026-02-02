@@ -1,0 +1,13 @@
+
+Machine Learning Overview
+========================
+
+Machine learning is a subset of artificial intelligence that focuses on 
+developing systems that can learn from data. It has three main types:
+
+1. Supervised Learning: Learning from labeled data
+2. Unsupervised Learning: Finding patterns in unlabeled data  
+3. Reinforcement Learning: Learning through trial and error
+
+Applications include image recognition, natural language processing, 
+recommendation systems, and autonomous vehicles.

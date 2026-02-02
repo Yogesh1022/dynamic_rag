@@ -1,24 +1,101 @@
-# .gitignore for DynamicRAG Project
-
-# Ignore uploaded files (e.g., images, PDFs in uploads/)
-uploads/
-
-# Ignore environment variables and secrets
-.env
-
-# Ignore Python cache and virtual environments
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
 
-# Ignore IDE-specific files
-.idea/  # JetBrains IDEs (e.g., PyCharm)
-*.code-workspace  # VS Code
+# Poetry
+poetry.lock
 
-# Ignore system files
-.DS_Store  # macOS
-Thumbs.db  # Windows
+# PyCharm
+.idea/
 
-# Add any other files or directories you want to ignore below
-# Example: logs/
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads
+uploads/
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.dockerignore
+
+# Node (for dashboard)
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Backup files
+*.bak
+*.backup
